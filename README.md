@@ -1,7 +1,10 @@
 # babel-plugin-p5-push-pop
 
 This babel plugin provides you a way to organize your P5 code.
-It replaces all anonym blocks with `push` and `pop`.
+It replaces no labeled block statements with `push` and `pop`.
+
+Yes, all scopes of the block statements are not considered because they are replaced. But I think it is bearable, because this spelling is rather less used.
+
 The advantage is less writing work and now you can fold and indent these blocks
 automatically within your IDE.
 
