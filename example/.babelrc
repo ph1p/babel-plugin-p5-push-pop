@@ -1,4 +1,4 @@
 {
   "presets": [["@babel/env", { "modules": false }]],
-  "plugins": ["../"]
+  "plugins": ["p5-push-pop"]
 }

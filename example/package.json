@@ -16,6 +16,7 @@
     "@open-wc/rollup-plugin-html": "^1.1.0",
     "@rollup/plugin-babel": "^5.0.4",
     "@rollup/plugin-node-resolve": "^8.1.0",
+    "babel-plugin-p5-push-pop": "0.0.1",
     "rollup": "^2.21.0",
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-livereload": "^1.3.0",
