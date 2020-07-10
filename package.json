@@ -1,0 +1,18 @@
+{
+  "name": "babel-plugin-p5-push-pop",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Philip Stapelfeldt",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-plugin-tester": "^9.2.0",
+    "jest": "^26.1.0"
+  }
+}
