@@ -29,6 +29,7 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
+    if: github.event.base_ref == 'refs/heads/master'
     needs: test
     steps:
       - uses: actions/checkout@v1
