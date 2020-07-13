@@ -5,7 +5,7 @@ module.exports = function ({ types: t }) {
       FunctionDeclaration(path) {
         path.traverse({
           Identifier({ node }) {
-            if (node.name === 'setup' || node.name === 'draw') {
+            if (node.name === 'setup' || node.name === 'draw' || node.name === 'preload') {
               const declar = t.assignmentExpression(
                 '=',
                 t.memberExpression(
